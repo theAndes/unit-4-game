@@ -1,0 +1,117 @@
+body  {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+   /* background-image: url(../images/bg-image.jpeg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    
+}
+
+section{
+    width: 100%;
+}
+
+.text {
+    font-size: 2em;
+    height: 50px;
+    padding: .5em;
+}
+
+.top{
+    background-color: azure; 
+}
+.bottom{
+    padding-top: 1em;
+    font-size: 1.25em;
+}
+
+#characters {
+    display: flex;
+    flex-flow: wrap;
+}
+.monster{
+    width: 125px;
+    height: 100px;
+    margin: 10px auto;
+    cursor: pointer;
+    position: relative;
+}
+
+
+#battlefield{
+    display: flex;
+    flex-flow: wrap;
+    position: relative;
+}
+.field-player{
+    min-width: 40%;
+    height: 350px;
+    cursor: unset;
+}
+
+.monster>p{
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    font-size: 1.5em;
+}
+
+
+button{
+    border: none;
+    border-radius: 10px;
+    background-color:  #1da1f2;
+    color: whitesmoke;
+    margin: 25px;
+    padding: 10px;
+    width: 150px;
+    cursor: crosshair;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .field-player{
+        min-width: 40%;
+        height: 200px;
+    } 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pika{
+    background-image: url(../images/pika.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.char{
+    background-image: url(../images/char.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bulba{
+    background-image: url(../images/bulba.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.squirt{
+    background-image: url(../images/squirt.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}

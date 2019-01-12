@@ -29,7 +29,6 @@ section{
 #characters {
     display: flex;
     flex-flow: wrap;
-    height: 350px;
 }
 .monster{
     width: 125px;
@@ -71,6 +70,9 @@ button , .button{
     cursor: crosshair;
 }
 
+footer p {
+    margin-top: 25px;
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -90,7 +92,7 @@ button , .button{
 
 
 
-
+s
 
 
 .pika{
